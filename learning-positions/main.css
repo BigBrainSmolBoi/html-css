@@ -11,9 +11,14 @@ nav h1 {
   display: inline-block;
 }
 
+nav h1:hover,
+nav h1:active {
+  color: rgb(0, 140, 255);
+}
+
 .links {
   display: inline-block;
-  width: 700px;
+  width: calc(100% - 150px);
 }
 
 ul {
@@ -24,4 +29,28 @@ ul {
 li {
   margin-right: 10px;
   display: inline-block;
+  font-size: large;
+}
+
+li a {
+  margin-right: 10px;
+  display: inline-block;
+  font-size: large;
+}
+
+li:hover,
+li:active {
+  color: white;
+}
+
+.cards {
+  width: 70%;
+  border: 2px solid black;
+  padding: 20px;
+  margin: 15px;
+  display: inline-block;
+}
+
+.articles {
+  text-align: center;
 }
