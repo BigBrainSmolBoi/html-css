@@ -9,11 +9,15 @@ nav {
 
 nav h1 {
   display: inline-block;
+  position: relative;
 }
 
 nav h1:hover,
 nav h1:active {
   color: rgb(0, 140, 255);
+  top: 1px;
+  right: 1px;
+  cursor: pointer;
 }
 
 .links {
