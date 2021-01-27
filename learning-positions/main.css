@@ -54,3 +54,16 @@ li:active {
 .articles {
   text-align: center;
 }
+
+.articles div {
+  background: rgba(177, 134, 71, 0.95);
+  color: white;
+}
+
+.background {
+  background: url('../images/plans-background.jpg');
+  position: fixed;
+  width: 100%;
+  height: 100%;
+  z-index: -1;
+}
